@@ -1,0 +1,1 @@
+;(function(){window.onload = setTimeout(function(){ if (location.href==='chrome-error://chromewebdata/') { let a = document.querySelector('a'), b = /\/\/(\w+\.)*lanzou\w?\.com\//; a = (a) ? a.href :  document.querySelector('strong').innerHTML; if (b.test(a)) { location.href = a.replace(b,'//pan.lanzoui.com/'); }}},50)})();
